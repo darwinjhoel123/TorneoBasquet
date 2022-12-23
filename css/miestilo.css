@@ -1,0 +1,214 @@
+*{
+	border:0;
+	margin: 0;
+	padding: 0;
+}
+.titulo1{
+    color:white;
+    
+}
+.abc{
+    background: rgba(255,255,250,.5);
+  padding: 1em;
+}
+
+.table {
+  margin: 0 auto;
+}
+.fondo1{
+	background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+.listaJ{
+  font-size: 20px;
+  color: #FFF;
+  background: #A4A2A4;
+  font-weight: bold;
+  text-shadow: #1c1c1c 1px 1px 1px;
+  padding: 0.2em;
+}
+
+.fondo2{
+	background-color: #543614;
+background-image: linear-gradient(90deg, #543614 0%, #F76B1C 100%);
+
+}
+.fondo3{
+	background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+}
+.borde1{
+ border-radius: 1em;
+}
+.sobra1{
+	box-shadow: #1c1c1c 3px 5px 10px;
+}
+
+.fondo4{
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.fondo5{
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.fondo6{
+background: rgb(16,16,17);
+background: linear-gradient(90deg, rgba(16,16,17,1) 0%, rgba(152, 86, 3) 59%, rgba(187, 94, 0) 100%);
+}
+.fondo7{
+background: rgb(157,20,10);
+background: linear-gradient(90deg, rgba(157,20,10,1) 0%, rgba(246,25,13,1) 63%, rgba(246,14,2,1) 100%);
+color: #fff;
+text-shadow: #1c1c1c 1px 1px 1px;
+}
+.titulo{
+	font-size: 20px;
+	color: #FFF;
+	background: #A4A2A4;
+	font-weight: bold;
+	text-shadow: #1c1c1c 1px 1px 1px;
+	padding: 0.2em;
+}
+.corto {
+	width: 10px;
+}
+.excel{
+	width: 30px;
+	border:0;
+	outline: none;
+} 
+.excel2{
+	width: 30px;
+	border:0;
+	outline: none;
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.imagen-fondoA{
+background: url("../images/fondoAdmin.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.imagen-fondoM{
+background: url("../images/fondoMesa.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.letra{
+    color: #fff;
+}
+.imagen-fondoD{
+background: url("../images/fondoDelegado.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.imagen-fondo{
+background: url("../images/fondo1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+}
+.fondo-tabla{
+	background: rgba(255,255,250,.5);
+	padding: 1em;
+}
+.texto1{
+	text-shadow: #1c1c1c 1px 1px 1px;
+}
+.texto2{color:#1c1c1c;}
+.texto3{color:#fff;background: red;padding: .4em}
+ 
+
+
+/*RELOJ y FECHA*/
+body {
+    height: 100vh;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    /* background-color: #F2F2F2; */
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(208, 208, 208, 1) 71%, rgba(159, 159, 159, 1) 100%);
+    font-family: 'lato';
+}
+
+.container-clock {
+    text-align: center;
+    ;
+}
+
+.container-clock h1 {
+    font-size: 10rem;
+    font-weight: 400;
+}
+
+.container-clock p {
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,300italic,400italic);
+
+body{
+  padding-top:15px;
+  font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+}
+
+.tabla {
+  margin: 0 auto;
+}
+.tabla thead {
+  cursor: pointer;
+  background: rgba(0, 0, 0, .2);
+}
+.tabla thead tr th { 
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.tabla thead tr th span { 
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 100% 55%;
+}
+.tabla thead tr th.headerSortUp,
+.tabla thead tr th.headerSortDown {
+  background: rgba(0, 0, 0, .2);
+}
+.tabla thead tr th.headerSortUp span {
+  background-image: url('http://tablesorter.com/themes/blue/asc.gif');
+}
+.tabla thead tr th.headerSortDown span {
+  background-image: url('http://tablesorter.com/themes/blue/desc.gif');
+}
+.tabla tbody tr td {
+  text-align: center;
+  padding: 10px 20px;
+}
+.tabla tbody tr td.align-left {
+  text-align: left;
+}
+
